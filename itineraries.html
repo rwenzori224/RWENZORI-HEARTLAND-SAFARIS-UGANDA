@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Itineraries | Rwenzori Heartland Safaris Uganda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2e7d32;
+            --primary-dark: #1b5e20;
+            --accent: #f57c00;
+            --light-bg: #f4f6f8;
+            --dark-text: #222;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { color: var(--dark-text); line-height: 1.6; background-color: #fff; }
+
+        header { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+        .logo { font-size: 1.4rem; font-weight: bold; color: var(--primary-dark); }
+        nav ul { display: flex; list-style: none; gap: 20px; }
+        nav a { text-decoration: none; color: var(--dark-text); font-weight: 600; }
+        nav a:hover { color: var(--primary); }
+
+        .banner {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('20230106_101847_2.jpg') center/cover;
+            height: 40vh; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 1rem;
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
+
+        .itinerary-card {
+            background: #fff; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin-bottom: 2.5rem; overflow: hidden; border: 1px solid #eee;
+        }
+
+        .itinerary-header { background: var(--primary-dark); color: #fff; padding: 1.2rem 1.8rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+        .itinerary-header h2 { font-size: 1.5rem; }
+        .badge { background: var(--accent); padding: 0.3rem 0.8rem; border-radius: 4px; font-weight: bold; font-size: 0.9rem; }
+
+        .itinerary-body { padding: 1.8rem; }
+        .day-step { margin-bottom: 1.2rem; padding-left: 1rem; border-left: 3px solid var(--primary); }
+        .day-step h4 { color: var(--primary-dark); }
+
+        .btn { display: inline-block; background: var(--accent); color: #fff; padding: 0.7rem 1.5rem; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 1rem; }
+        .btn:hover { background: #e65100; }
+
+        .whatsapp-float { position: fixed; bottom: 25px; right: 25px; background: #25d366; color: white; width: 60px; height: 60px; border-radius: 50px; text-align: center; font-size: 32px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index: 1000; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+
+        footer { background: #1a1a1a; color: #fff; padding: 2.5rem 1rem; text-align: center; }
+        footer a { color: var(--accent); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><i class="fa-solid fa-mountain-sun"></i> Rwenzori Heartland Safaris</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="itineraries.html">Itineraries</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html#booking">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <a href="https://wa.me/256770874356?text=Hello%20Rwenzori%20Heartland%20Safaris,%20I%20have%20questions%20about%20your%20itineraries." class="whatsapp-float" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <section class="banner">
+        <h1>Trekking & Safari Itineraries</h1>
+        <p>Explore our carefully crafted routes and expedition packages</p>
+    </section>
+
+    <section class="container">
+
+        <!-- Itinerary 1 -->
+        <div class="itinerary-card">
+            <div class="itinerary-header">
+                <h2>5-Day Central Circuit Trekking Expedition</h2>
+                <span class="badge">Popular Route</span>
+            </div>
+            <div class="itinerary-body">
+                <div class="day-step">
+                    <h4>Day 1: Arrival & Briefing -> Nyabitaba Camp</h4>
+                    <p>Start from the park gate, hike through forest zones observing primates and birdlife up to Nyabitaba Camp.</p>
+                </div>
+                <div class="day-step">
+                    <h4>Day 2: Nyabitaba to John Matte / Bigo Camp</h4>
+                    <p>Cross the Kurt Shafer Bridge over the river, ascend through bamboo forests and reach the scenic boglands of Bigo Camp.</p>
+                </div>
+                <div class="day-step">
+                    <h4>Day 3: Bigo Camp -> Bujuku Valley</h4>
+                    <p>Hike along boardwalks through giant lobelias and groundsel vegetation towards Bujuku Camp with views of Mt. Speke and Mt. Stanley.</p>
+                </div>
+                <div class="day-step">
+                    <h4>Day 4: Summit Attempt / High Passes -> Elena / Bukurungu Option</h4>
+                    <p>Ascend towards higher alpine passes or explore the Bukurungu trail branch before starting descent protocols.</p>
+                </div>
+                <div class="day-step">
+                    <h4>Day 5: Descent to Base & Celebration</h4>
+                    <p>Return to base camp for certificate presentation and community farewell.</p>
+                </div>
+                <a href="index.html#booking" class="btn">Book This Itinerary</a>
+            </div>
+        </div>
+
+        <!-- Itinerary 2 -->
+        <div class="itinerary-card">
+            <div class="itinerary-header">
+                <h2>3-Day Cultural, River Walk & Nature Experience</h2>
+                <span class="badge">Eco-Cultural</span>
+            </div>
+            <div class="itinerary-body">
+                <div class="day-step">
+                    <h4>Day 1: River Valley Walk & Waterfall Hike</h4>
+                    <p>Guided nature walk along the mountain rivers and surrounding foothills, enjoying cool mountain breezes and photo opportunities.</p>
+                </div>
+                <div class="day-step">
+                    <h4>Day 2: Royal Heritage & Conservation Tree Planting</h4>
+                    <p>Visit historic sites along royal trekking routes, participate in tree planting for eco-conservation, and learn local traditions.</p>
+                </div>
+                <div class="day-step">
+                    <h4>Day 3: Community Birding Tour & Departure</h4>
+                    <p>Morning birdwatching excursion followed by local crafts exhibition and souvenir shopping.</p>
+                </div>
+                <a href="index.html#booking" class="btn">Book This Tour</a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p><strong>Rwenzori Heartland Safaris Uganda</strong></p>
+        <p>Email: <a href="mailto:rwenzorsafaris@gmail.com">rwenzorsafaris@gmail.com</a> | WhatsApp: <a href="https://wa.me/256770874356">+256 770 874356</a></p>
+        <p>Mobile Money / Tel: +256 785 081046 (Tsongo Godfrey Muhindo)</p>
+    </footer>
+
+</body>
+</html>

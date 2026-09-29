@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Rwenzori Heartland Safaris Uganda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2e7d32;
+            --primary-dark: #1b5e20;
+            --accent: #f57c00;
+            --light-bg: #f4f6f8;
+            --dark-text: #222;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { color: var(--dark-text); line-height: 1.6; background-color: #fff; }
+
+        header { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.1); sticky: top; position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+        .logo { font-size: 1.4rem; font-weight: bold; color: var(--primary-dark); }
+        nav ul { display: flex; list-style: none; gap: 20px; }
+        nav a { text-decoration: none; color: var(--dark-text); font-weight: 600; }
+        nav a:hover { color: var(--primary); }
+
+        .banner {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('20230104_134609_2.jpg') center/cover;
+            height: 40vh; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 1rem;
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
+        .about-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; align-items: center; }
+        .about-img img { width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .about-text h2 { color: var(--primary-dark); margin-bottom: 1rem; font-size: 2rem; }
+
+        .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 3rem; }
+        .value-card { background: var(--light-bg); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); }
+        .value-card h3 { color: var(--primary-dark); margin-bottom: 0.5rem; }
+
+        .whatsapp-float { position: fixed; bottom: 25px; right: 25px; background: #25d366; color: white; width: 60px; height: 60px; border-radius: 50px; text-align: center; font-size: 32px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index: 1000; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+
+        footer { background: #1a1a1a; color: #fff; padding: 2.5rem 1rem; text-align: center; margin-top: 3rem; }
+        footer a { color: var(--accent); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><i class="fa-solid fa-mountain-sun"></i> Rwenzori Heartland Safaris</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="itineraries.html">Itineraries</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html#booking">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <a href="https://wa.me/256770874356?text=Hello%20Rwenzori%20Heartland%20Safaris,%20I%20would%20like%20to%20know%20more%20about%20your%20company." class="whatsapp-float" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <section class="banner">
+        <h1>About Rwenzori Heartland Safaris</h1>
+        <p>Your local guides to the legendary Mountains of the Moon</p>
+    </section>
+
+    <section class="container">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>Guiding You Through Pure Nature & Tradition</h2>
+                <p>Based in Western Uganda, <strong>Rwenzori Heartland Safaris</strong> is dedicated to delivering unforgettable mountain trekking, rich cultural immersion, and eco-friendly safari experiences across the Rwenzori range.</p>
+                <br>
+                <p>Our team consists of passionate local guides who know every trail, camp, and peak. Beyond mountaineering, we actively advocate for environmental conservation, reforestation, and community empowerment around the national park.</p>
+            </div>
+            <div class="about-img">
+                <img src="20230104_134609_2.jpg" alt="Restoring Nature and Culture of the Rwenzoris">
+            </div>
+        </div>
+
+        <div class="values-grid">
+            <div class="value-card">
+                <h3><i class="fa-solid fa-leaf"></i> Eco-Conservation</h3>
+                <p>We champion tree planting and environmental protection to safeguard the delicate mountain ecosystems for generations to come.</p>
+            </div>
+            <div class="value-card">
+                <h3><i class="fa-solid fa-users"></i> Cultural Heritage</h3>
+                <p>We connect travelers with authentic local traditions, history, and stories of the Rwenzori region.</p>
+            </div>
+            <div class="value-card">
+                <h3><i class="fa-solid fa-shield-halved"></i> Expert Safety</h3>
+                <p>Our experienced guides and porters ensure safe, well-coordinated, and comfortable mountain treks for all skill levels.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>Rwenzori Heartland Safaris Uganda</strong></p>
+        <p>Email: <a href="mailto:rwenzorsafaris@gmail.com">rwenzorsafaris@gmail.com</a> | WhatsApp: <a href="https://wa.me/256770874356">+256 770 874356</a></p>
+        <p>Mobile Money / Tel: +256 785 081046 (Tsongo Godfrey Muhindo)</p>
+    </footer>
+
+</body>
+</html>
